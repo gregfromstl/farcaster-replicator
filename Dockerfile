@@ -15,6 +15,8 @@ RUN npm install
 # Bundle app source inside Docker image
 COPY . .
 
+RUN npm run build
+
 # App binds to port 3000 then we'll use the EXPOSE instruction to have it mapped by the docker daemon
 EXPOSE 3000
 
