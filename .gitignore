@@ -1,0 +1,4 @@
+.env
+grafana/data
+node_modules
+build
